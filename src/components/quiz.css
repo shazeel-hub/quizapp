@@ -1,0 +1,40 @@
+.quiz{
+    width: 500px;
+    margin-top: 30px;
+    background-color: rgb(19, 236, 110) !important;
+    padding: 20px;
+    border-radius: 10px;
+}
+.quiz h1{
+    text-align: center;
+    color: rgb(224, 172, 172);
+}
+.quiz h2{
+    color: rgb(235, 164, 164);
+}
+.quiz p{
+    color: rgb(243, 168, 168);
+}
+.options div{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: wheat;
+}
+.options div:hover{
+    background-color: rgba(145, 134, 134, 0.342);
+}
+.selected{
+    background-color: rgb(145, 134, 134) !important;
+}
+.next{
+    margin: 0 auto;
+    background-color: rgb(235, 47, 47);
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 30px;
+    border: none;
+    border-radius:10px;
+    color: white;
+}
